@@ -9,7 +9,7 @@ _______________________________________________________________________
 
 <PropertyList>
  <name>PC-7 Panel</name>
- <background>Aircraft/pc7/Panels/Textures/background.rgb</background>
+ <background>Aircraft/pc7/Panels/Textures/background.png</background>
  <w>1024</w>
  <h>512</h>
  <y-offset>-20</y-offset>

@@ -230,7 +230,9 @@
 <file>Aircraft/pc7/Nasal/liveries.nas</file>
 <file>Aircraft/pc7/Nasal/light.nas</file>
 <file>Aircraft/pc7/Nasal/vhf22.nas</file>
+<!-- vir32.nas causes FG to crash. IAHM-COL June 2016
 <file>Aircraft/pc7/Nasal/vir32.nas</file>
+-->
 <tyresmoke>
 <file>Aircraft/pc7/Nasal/tyresmoke.nas</file>
 </tyresmoke>

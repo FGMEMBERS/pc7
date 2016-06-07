@@ -4,7 +4,7 @@ OBJECT world
 kids 25
 OBJECT poly
 name "back_left_door_inner"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 21
 0.47942 -0.046595 0.568014
@@ -136,7 +136,7 @@ refs 4
 kids 0
 OBJECT poly
 name "back_right_door_inner"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 21
 0.47942 -0.046595 -0.568014
@@ -268,7 +268,7 @@ refs 4
 kids 0
 OBJECT poly
 name "elevator"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 51
 5.87376 0.720304 0
@@ -664,7 +664,7 @@ refs 5
 kids 0
 OBJECT poly
 name "exhaust"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 743
 -2.71347 0.585644 -0.004192
@@ -6664,7 +6664,7 @@ refs 4
 kids 0
 OBJECT poly
 name "front_strut"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 178
 -1.86188 -0.37017 -0.02792
@@ -8041,7 +8041,7 @@ refs 4
 kids 0
 OBJECT poly
 name "hstab"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 40
 4.85338 0.751974 0.401329
@@ -8401,7 +8401,7 @@ refs 5
 kids 0
 OBJECT poly
 name "left_aileron"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 29
 0.872081 0.337314 2.90798
@@ -8621,7 +8621,7 @@ refs 5
 kids 0
 OBJECT poly
 name "left_door"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 16
 -1.91306 0.016896 0.13098
@@ -8742,7 +8742,7 @@ refs 4
 kids 0
 OBJECT poly
 name "left_flap"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 25
 1.18463 0.148786 1.92888
@@ -8930,7 +8930,7 @@ refs 5
 kids 0
 OBJECT poly
 name "left_strut"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 132
 0.339899 -0.573866 1.03792
@@ -10209,7 +10209,7 @@ refs 3
 kids 0
 OBJECT poly
 name "left_wheel"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 422
 0.494473 -0.703008 1.22272
@@ -13578,7 +13578,7 @@ refs 4
 kids 0
 OBJECT poly
 name "nose_wheel"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 462
 -1.76415 -0.763916 0
@@ -17267,7 +17267,7 @@ refs 4
 kids 0
 OBJECT poly
 name "right_aileron"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 29
 0.87208 0.337314 -2.90798
@@ -17487,7 +17487,7 @@ refs 5
 kids 0
 OBJECT poly
 name "right_door"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 16
 -1.91306 0.016019 -0.14082
@@ -17608,7 +17608,7 @@ refs 4
 kids 0
 OBJECT poly
 name "right_flap"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 25
 1.18463 0.148786 -1.92888
@@ -17796,7 +17796,7 @@ refs 5
 kids 0
 OBJECT poly
 name "right_strut"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 132
 0.339899 -0.573866 -1.03792
@@ -19075,7 +19075,7 @@ refs 3
 kids 0
 OBJECT poly
 name "right_wheel"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 422
 0.494473 -0.703008 -1.22278
@@ -22444,7 +22444,7 @@ refs 4
 kids 0
 OBJECT poly
 name "rudder"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 184
 5.09775 2.0975 -0.01001
@@ -23928,7 +23928,7 @@ refs 4
 kids 0
 OBJECT poly
 name "spinner"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 222
 -3.13808 0.816914 -0.039213
@@ -25697,7 +25697,7 @@ refs 4
 kids 0
 OBJECT poly
 name "back_left_door"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 34
 0.196525 -0.1237 1.19986
@@ -25937,7 +25937,7 @@ refs 4
 kids 0
 OBJECT poly
 name "back_right_door"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 34
 0.213885 -0.118547 -1.18699
@@ -26177,7 +26177,7 @@ refs 4
 kids 0
 OBJECT poly
 name "wings"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 492
 0.893307 0 1.17559
@@ -29926,7 +29926,7 @@ refs 4
 kids 0
 OBJECT poly
 name "hull"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 1048
 4.15245 0.401934 -0.011289
@@ -38473,7 +38473,7 @@ refs 3
 kids 0
 OBJECT poly
 name "canopy_arch"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 160
 -0.81831 1.05974 -0.26465
@@ -39426,7 +39426,7 @@ refs 4
 kids 0
 OBJECT poly
 name "canopy_shell"
-texture "Liveries/PC-7/SAR.png"
+texture "Liveries/SAR.png"
 crease 45.000000
 numvert 112
 0.510607 1.0183 -0.389955

@@ -22,7 +22,7 @@
 <engine>
 <name>engine</name>
 <mode>looped</mode>
-<path>Aircraft/PC-9M/Sounds/Turboprop.wav</path>
+<path>Aircraft/pc7/Sounds/Turboprop.wav</path>
 <condition>
 <property>/engines/engine/running[0]</property>
 </condition>

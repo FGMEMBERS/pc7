@@ -54,14 +54,6 @@
 </livery>
 </model>
 
-<virtual-cockpit archive="y">true</virtual-cockpit>
-<allow-toggle-cockpit archive="y">false</allow-toggle-cockpit>
-
-<panel>
-<path>Aircraft/pc7/Panels/pc7-panel.xml</path>
-<visibility archive="y">true</visibility>
-</panel>
-
 <!--Views -->
 
 <view n="0">
@@ -103,6 +95,26 @@
 <label>Pilatus PC-7 Mk II</label>
 <enabled type="bool">true</enabled>
 <item>
+<label>Autostart</label>
+<binding>
+<command>property-toggle</command>
+<property>controls/engines/start1</property>
+</binding>
+<binding>
+<command>property-toggle</command>
+<property>controls/engines/run1</property>
+</binding>
+<binding>
+<command>property-toggle</command>
+<property>controls/engines/abort1</property>
+</binding>
+<mod-up>
+<binding>
+<command>null</command>
+</binding>
+</mod-up>
+</item>
+<item>
 <label>Select Livery</label>
 <binding>
 <command>nasal</command>
@@ -125,8 +137,8 @@
 
 <engines>
 <engine n="0">
-<running>true</running>
-<rpm>2200</rpm>
+<fuel-flow_pph type="float">0</fuel-flow_pph>
+<running>false</running>
 </engine>
 </engines>
 
@@ -170,7 +182,7 @@
 </consumables>
 
 <!--Instruments -->
-
+<!--
 <instrumentation>
 <transponder>
 <inputs>
@@ -201,6 +213,7 @@
 <g-min archive="y" type="double">1</g-min>
 </g-meter>
 </instrumentation>
+-->
 
 <!--Effects -->
 
@@ -235,6 +248,13 @@
 <file>Aircraft/pc7/Nasal/tyresmoke.nas</file>
 </tyresmoke>
 </pc7>
+<tyresmoke>
+<file>Aircraft/PC-9M/Nasal/tyresmoke.nas</file>
+</tyresmoke>
+<pc-engine>
+<file>Aircraft/PC-9M/Nasal/pc-engine.nas</file>
+<module>pc</module>
+</pc-engine>
 </nasal>
 
 </PropertyList>

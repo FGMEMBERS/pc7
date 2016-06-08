@@ -1,10 +1,7 @@
-<?xml version="1.0"?>
- 
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 28 Volt electrical system -->
 <!-- ref: http://www.sci.fi/~fta/aviat-4.htm -->
-
 <!--Modifié E Teuscher  07/2010 -->
-
 <PropertyList>
 
   <!-- Supplier list -->

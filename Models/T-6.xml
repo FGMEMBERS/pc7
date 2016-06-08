@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-<path>PC-7.ac</path>
+<path>T-6.ac</path>
 <offsets>
 <pitch-deg>-4.00</pitch-deg>
 <z-offset-m>-0.30</z-offset-m>
@@ -10,7 +10,7 @@
 
 <nasal>
 <load>
-var livery_update = aircraft.livery_update.new("Aircraft/pc7/Models/Liveries/PC-7");
+var livery_update = aircraft.livery_update.new("Aircraft/PC-9M/Models/Liveries/T-6");
 </load>
 <unload>
 livery_update.stop();
@@ -21,7 +21,7 @@ livery_update.stop();
 
 <panel>
 <name>Panel3D</name>
-<path>Aircraft/pc7/Panels/pc7-panel.xml</path>
+<path>Aircraft/PC-9M/Panels/PC-9M-panel.xml</path>
 <bottom-left>
 <x-m>-0.73</x-m>
 <y-m> 0.29</y-m>
@@ -44,7 +44,7 @@ livery_update.stop();
 
 <model>
 <name>Propeller</name>
-<path>Aircraft/pc7/Models/Propeller/Propeller.xml</path>
+<path>Aircraft/PC-9M/Models/Propeller/Propeller.xml</path>
 <offsets>
 <x-m>0.00</x-m>
 <y-m>0.00</y-m>
@@ -57,7 +57,7 @@ livery_update.stop();
 <!--Altimeter-->
 <model>
 <name>ALT1 gauge</name>
-<path>Aircraft/pc7/Instruments/altimeter1.xml</path>
+<path>Aircraft/PC-9M/Instruments/altimeter1.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.11</y-m>
@@ -68,7 +68,7 @@ livery_update.stop();
 
 <model>
 <name>ALT1 gauge 2</name>
-<path>Aircraft/pc7/Instruments/altimeter1.xml</path>
+<path>Aircraft/PC-9M/Instruments/altimeter1.xml</path>
 <offsets>
 <x-m>0.50</x-m>
 <y-m>0.11</y-m>
@@ -80,7 +80,7 @@ livery_update.stop();
 <!--VerticalSpeedIndicator-->
 <model>
 <name>VSI 1 gauge</name>
-<path>Aircraft/pc7/Instruments/vsi.xml</path>
+<path>Aircraft/PC-9M/Instruments/vsi.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.11</y-m>
@@ -91,7 +91,7 @@ livery_update.stop();
 
 <model>
 <name>VSI 1 gauge 2</name>
-<path>Aircraft/pc7/Instruments/vsi.xml</path>
+<path>Aircraft/PC-9M/Instruments/vsi.xml</path>
 <offsets>
 <x-m>0.50</x-m>
 <y-m>0.11</y-m>
@@ -103,7 +103,7 @@ livery_update.stop();
 <!--AirSpeedIndicator-->
 <model>
 <name>ASI 1 gauge</name>
-<path>Aircraft/pc7/Instruments/asi300.xml</path>
+<path>Aircraft/PC-9M/Instruments/asi300.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>-0.12</y-m>
@@ -114,7 +114,7 @@ livery_update.stop();
 
 <model>
 <name>ASI 1 gauge 2</name>
-<path>Aircraft/pc7/Instruments/asi300.xml</path>
+<path>Aircraft/PC-9M/Instruments/asi300.xml</path>
 <offsets>
 <x-m>0.50</x-m>
 <y-m>-0.12</y-m>
@@ -125,7 +125,7 @@ livery_update.stop();
   
 <!-- A-10 ADI -->
 <model>
-<path>Aircraft/pc7/Instruments/ADI-HSI_A10/A-10-adi.xml</path>
+<path>Aircraft/PC-9M/Instruments/ADI-HSI_A10/A-10-adi.xml</path>
 <offsets>
 <x-m>-0.69</x-m>
 <y-m>-0.005</y-m>
@@ -135,7 +135,7 @@ livery_update.stop();
 </model>
 
 <model>
-<path>Aircraft/pc7/Instruments/ADI-HSI_A10/A-10-adi.xml</path>
+<path>Aircraft/PC-9M/Instruments/ADI-HSI_A10/A-10-adi.xml</path>
 <offsets>
 <x-m>0.51</x-m>
 <y-m>-0.005</y-m>
@@ -146,7 +146,7 @@ livery_update.stop();
 	
 <!-- A-10 HSI -->
 <model>
-<path>Aircraft/pc7/Instruments/ADI-HSI_A10/A-10-HSI.xml</path>
+<path>Aircraft/PC-9M/Instruments/ADI-HSI_A10/A-10-HSI.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>-0.005</y-m>
@@ -156,7 +156,7 @@ livery_update.stop();
 </model>
 
 <model>
-<path>Aircraft/pc7/Instruments/ADI-HSI_A10/A-10-HSI.xml</path>
+<path>Aircraft/PC-9M/Instruments/ADI-HSI_A10/A-10-HSI.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>-0.005</y-m>
@@ -168,7 +168,7 @@ livery_update.stop();
 <!--RMI    ADF-VOR-->
 <model>
 <name>RMI pilot</name>
-<path>Aircraft/pc7/Instruments/rmi.xml</path>
+<path>Aircraft/PC-9M/Instruments/rmi.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>-0.12</y-m>
@@ -179,7 +179,7 @@ livery_update.stop();
 
 <model>
 <name>RMI pilot 2</name>
-<path>Aircraft/pc7/Instruments/rmi.xml</path>
+<path>Aircraft/PC-9M/Instruments/rmi.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>-0.12</y-m>
@@ -190,7 +190,7 @@ livery_update.stop();
     
 <model>
 <name>Stby-gyro</name>
-<path>Aircraft/pc7/Instruments/mini-ai.xml</path>
+<path>Aircraft/PC-9M/Instruments/mini-ai.xml</path>
 <offsets>
 <x-m>-0.715</x-m>
 <y-m>-0.2</y-m>
@@ -201,7 +201,7 @@ livery_update.stop();
 
 <model>
 <name>Stby-gyro 2</name>
-<path>Aircraft/pc7/Instruments/mini-ai.xml</path>
+<path>Aircraft/PC-9M/Instruments/mini-ai.xml</path>
 <offsets>
 <x-m> 0.485</x-m>
 <y-m>-0.2</y-m>
@@ -212,7 +212,7 @@ livery_update.stop();
  
 <model>
 <name>turn-indicator</name>  
-<path>Aircraft/pc7/Instruments/tc.xml</path>
+<path>Aircraft/PC-9M/Instruments/tc.xml</path>
 <offsets>
 <x-m>-0.698</x-m>
 <y-m>-0.2</y-m>
@@ -223,7 +223,7 @@ livery_update.stop();
 
 <model>
 <name>turn-indicator 2</name>  
-<path>Aircraft/pc7/Instruments/tc.xml</path>
+<path>Aircraft/PC-9M/Instruments/tc.xml</path>
 <offsets>
 <x-m> 0.502</x-m>
 <y-m>-0.2</y-m>
@@ -234,7 +234,7 @@ livery_update.stop();
 	
 <!--AOA-->
 <model>
-<path>Aircraft/pc7/Instruments/AOA/aoa-gauge.xml</path>
+<path>Aircraft/PC-9M/Instruments/AOA/aoa-gauge.xml</path>
 <offsets> 
 <x-m>-0.7</x-m>
 <y-m>-0.28</y-m>
@@ -247,7 +247,7 @@ livery_update.stop();
 </model>
 
 <model>
-<path>Aircraft/pc7/Instruments/AOA/aoa-gauge.xml</path>
+<path>Aircraft/PC-9M/Instruments/AOA/aoa-gauge.xml</path>
 <offsets> 
 <x-m> 0.50</x-m>
 <y-m>-0.28</y-m>
@@ -261,7 +261,7 @@ livery_update.stop();
 	
 <!--Gmeter-->	
 <model>
-<path>Aircraft/pc7/Instruments/AOA/accelerometer.xml</path>
+<path>Aircraft/PC-9M/Instruments/AOA/accelerometer.xml</path>
 <offsets> 
 <x-m>-0.70</x-m>
 <y-m>0.11</y-m>
@@ -273,7 +273,7 @@ livery_update.stop();
 </model>
 
 <model>
-<path>Aircraft/pc7/Instruments/AOA/accelerometer.xml</path>
+<path>Aircraft/PC-9M/Instruments/AOA/accelerometer.xml</path>
 <offsets> 
 <x-m> 0.50</x-m>
 <y-m>0.11</y-m>
@@ -286,7 +286,7 @@ livery_update.stop();
 	
 <!--DME indicator-->	
 <model>
-<path>Aircraft/pc7/Instruments/Dme/dme.xml</path>
+<path>Aircraft/PC-9M/Instruments/Dme/dme.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>-0.12</y-m>
@@ -296,7 +296,7 @@ livery_update.stop();
 </model>
 
 <model>
-<path>Aircraft/pc7/Instruments/Dme/dme.xml</path>
+<path>Aircraft/PC-9M/Instruments/Dme/dme.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>-0.12</y-m>
@@ -308,7 +308,7 @@ livery_update.stop();
 <!--Comm Nav Adf-->
 <model>
 <name>Comm1</name>
-<path>Aircraft/pc7/Instruments/comm1.xml</path>
+<path>Aircraft/PC-9M/Instruments/comm1.xml</path>
 <offsets>
 <x-m>-0.58</x-m>
 <y-m>0.32</y-m>
@@ -319,7 +319,7 @@ livery_update.stop();
 
 <model>
 <name>Comm1-2</name>
-<path>Aircraft/pc7/Instruments/comm1.xml</path>
+<path>Aircraft/PC-9M/Instruments/comm1.xml</path>
 <offsets>
 <x-m> 0.62</x-m>
 <y-m>0.32</y-m>
@@ -330,7 +330,7 @@ livery_update.stop();
 
 <model>
 <name>Comm2</name>
-<path>Aircraft/pc7/Instruments/comm2.xml</path>
+<path>Aircraft/PC-9M/Instruments/comm2.xml</path>
 <offsets>
 <x-m>-0.5</x-m>
 <y-m>0.32</y-m>
@@ -341,7 +341,7 @@ livery_update.stop();
 
 <model>
 <name>Comm2-2</name>
-<path>Aircraft/pc7/Instruments/comm2.xml</path>
+<path>Aircraft/PC-9M/Instruments/comm2.xml</path>
 <offsets>
 <x-m> 0.70</x-m>
 <y-m>0.32</y-m>
@@ -352,7 +352,7 @@ livery_update.stop();
   
 <model>
 <name>Nav1</name>
-<path>Aircraft/pc7/Instruments/nav1.xml</path>
+<path>Aircraft/PC-9M/Instruments/nav1.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>-0.245</y-m>
@@ -363,7 +363,7 @@ livery_update.stop();
 
 <model>
 <name>Nav1-2</name>
-<path>Aircraft/pc7/Instruments/nav1.xml</path>
+<path>Aircraft/PC-9M/Instruments/nav1.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>-0.245</y-m>
@@ -374,7 +374,7 @@ livery_update.stop();
 
 <model>
 <name>ADF1</name>
-<path>Aircraft/pc7/Instruments/ctl62.xml</path>
+<path>Aircraft/PC-9M/Instruments/ctl62.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>-0.115</y-m>
@@ -385,7 +385,7 @@ livery_update.stop();
 
 <model>
 <name>ADF1-2</name>
-<path>Aircraft/pc7/Instruments/ctl62.xml</path>
+<path>Aircraft/PC-9M/Instruments/ctl62.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>-0.115</y-m>
@@ -396,7 +396,7 @@ livery_update.stop();
 
 <model>
 <name>Nav2</name>
-<path>Aircraft/pc7/Instruments/nav2.xml</path>
+<path>Aircraft/PC-9M/Instruments/nav2.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>-0.18</y-m>
@@ -407,7 +407,7 @@ livery_update.stop();
 
 <model>
 <name>Nav2-2</name>
-<path>Aircraft/pc7/Instruments/nav2.xml</path>
+<path>Aircraft/PC-9M/Instruments/nav2.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>-0.18</y-m>
@@ -420,7 +420,7 @@ livery_update.stop();
 
 <model>
 <name>torque</name>
-<path>Aircraft/pc7/Instruments/engine/torque.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/torque.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>0.185</y-m>
@@ -431,7 +431,7 @@ livery_update.stop();
 
 <model>
 <name>torque 2</name>
-<path>Aircraft/pc7/Instruments/engine/torque.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/torque.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>0.185</y-m>
@@ -442,7 +442,7 @@ livery_update.stop();
 
 <model>
 <name>prop rpm</name>
-<path>Aircraft/pc7/Instruments/engine/prop-rpm.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/prop-rpm.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.185</y-m>
@@ -453,7 +453,7 @@ livery_update.stop();
 
 <model>
 <name>prop rpm 2</name>
-<path>Aircraft/pc7/Instruments/engine/prop-rpm.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/prop-rpm.xml</path>
 <offsets>
 <x-m>0.50</x-m>
 <y-m>0.185</y-m>
@@ -464,7 +464,7 @@ livery_update.stop();
 
 <model>
 <name>T5</name>
-<path>Aircraft/pc7/Instruments/engine/t5.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/t5.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.185</y-m>
@@ -475,7 +475,7 @@ livery_update.stop();
 
 <model>
 <name>T5 2</name>
-<path>Aircraft/pc7/Instruments/engine/t5.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/t5.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>0.185</y-m>
@@ -486,7 +486,7 @@ livery_update.stop();
     
 <model>
 <name>gg rpm</name>
-<path>Aircraft/pc7/Instruments/engine/ggrpm.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/ggrpm.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>0.185</y-m>
@@ -497,7 +497,7 @@ livery_update.stop();
 
 <model>
 <name>gg rpm 2</name>
-<path>Aircraft/pc7/Instruments/engine/ggrpm.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/ggrpm.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>0.185</y-m>
@@ -508,7 +508,7 @@ livery_update.stop();
     
 <model>
 <name>fuelflow</name>
-<path>Aircraft/pc7/Instruments/engine/fuelflow.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/fuelflow.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>0.24</y-m>
@@ -519,7 +519,7 @@ livery_update.stop();
 
 <model>
 <name>fuelflow 2</name>
-<path>Aircraft/pc7/Instruments/engine/fuelflow.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/fuelflow.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>0.24</y-m>
@@ -530,7 +530,7 @@ livery_update.stop();
     
 <model>
 <name>oiltemp</name>
-<path>Aircraft/pc7/Instruments/engine/oiltemp.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/oiltemp.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.24</y-m>
@@ -541,7 +541,7 @@ livery_update.stop();
 
 <model>
 <name>oiltemp 2</name>
-<path>Aircraft/pc7/Instruments/engine/oiltemp.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/oiltemp.xml</path>
 <offsets>
 <x-m>0.50</x-m>
 <y-m>0.24</y-m>
@@ -552,7 +552,7 @@ livery_update.stop();
     
 <model>
 <name>oilpsi</name>
-<path>Aircraft/pc7/Instruments/engine/oilpsi.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/oilpsi.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.24</y-m>
@@ -563,7 +563,7 @@ livery_update.stop();
 
 <model>
 <name>oilpsi 2</name>
-<path>Aircraft/pc7/Instruments/engine/oilpsi.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/oilpsi.xml</path>
 <offsets>
 <x-m>0.50</x-m>
 <y-m>0.24</y-m>
@@ -574,7 +574,7 @@ livery_update.stop();
     
 <model>
 <name>fuelqty1</name>
-<path>Aircraft/pc7/Instruments/engine/fuel-qty0.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/fuel-qty0.xml</path>
 <offsets>
 <x-m>-0.7</x-m>
 <y-m>0.25</y-m>
@@ -585,7 +585,7 @@ livery_update.stop();
 
 <model>
 <name>fuelqty1-2</name>
-<path>Aircraft/pc7/Instruments/engine/fuel-qty0.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/fuel-qty0.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>0.25</y-m>
@@ -596,7 +596,7 @@ livery_update.stop();
 
 <model>
 <name>fuelqty2</name>
-<path>Aircraft/pc7/Instruments/engine/fuel-qty1.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/fuel-qty1.xml</path>
 <offsets>
 <x-m>-0.70</x-m>
 <y-m>0.25</y-m>
@@ -607,7 +607,7 @@ livery_update.stop();
 
 <model>
 <name>fuelqty2-2</name>
-<path>Aircraft/pc7/Instruments/engine/fuel-qty1.xml</path>
+<path>Aircraft/PC-9M/Instruments/engine/fuel-qty1.xml</path>
 <offsets>
 <x-m> 0.50</x-m>
 <y-m>0.25</y-m>
@@ -618,7 +618,7 @@ livery_update.stop();
 
 <!-- Student -->
 <model>
-<path>Aircraft/pc7/Models/Pilots/Pilot.xml</path>
+<path>Aircraft/PC-9M/Models/Pilots/Pilot.xml</path>
 <offsets>
 <x-m> -0.15 </x-m>
 <y-m> 0.00 </y-m>
@@ -628,7 +628,7 @@ livery_update.stop();
 
 <!-- Instructor -->
 <model>
-<path>Aircraft/pc7/Models/Pilots/Pilot.xml</path>
+<path>Aircraft/PC-9M/Models/Pilots/Pilot.xml</path>
 <offsets>
 <x-m> 1.22 </x-m>
 <y-m>  0.000 </y-m>
@@ -640,7 +640,7 @@ livery_update.stop();
 
 <model>
 <name>Cockpit</name>
-<path>Aircraft/pc7/Models/Cockpit/cockpit.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/cockpit.xml</path>
 <offsets>
 <x-m>0.00</x-m>
 <y-m>0.00</y-m>
@@ -650,7 +650,7 @@ livery_update.stop();
 
 <model>
 <name>RudderAndStickPilot</name>
-<path>Aircraft/pc7/Models/Cockpit/rudderandstick.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/rudderandstick.xml</path>
 <offsets>
 <x-m>0.00</x-m>
 <y-m>0.00</y-m>
@@ -660,7 +660,7 @@ livery_update.stop();
 
 <model>
 <name>ThrottlePilot</name>
-<path>Aircraft/pc7/Models/Cockpit/throttle.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/throttle.xml</path>
 <offsets>
 <x-m>0.00</x-m>
 <y-m>0.00</y-m>
@@ -670,7 +670,7 @@ livery_update.stop();
 
 <model>
 <name>GearhandlePilot</name>
-<path>Aircraft/pc7/Models/Cockpit/gearhandle.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/gearhandle.xml</path>
 <offsets>
 <x-m>0.00</x-m>
 <y-m>0.00</y-m>
@@ -681,7 +681,7 @@ livery_update.stop();
 
 <model>
 <name>RudderAndStickInstructor</name>
-<path>Aircraft/pc7/Models/Cockpit/rudderandstick.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/rudderandstick.xml</path>
 <offsets>
 <x-m>1.22</x-m>
 <y-m>0.05</y-m>
@@ -691,7 +691,7 @@ livery_update.stop();
 
 <model>
 <name>ThrottleInstructor</name>
-<path>Aircraft/pc7/Models/Cockpit/throttle.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/throttle.xml</path>
 <offsets>
 <x-m> 1.22</x-m>
 <y-m> 0.05</y-m>
@@ -701,7 +701,7 @@ livery_update.stop();
 
 <model>
 <name>GearhandleInstructor</name>
-<path>Aircraft/pc7/Models/Cockpit/gearhandle.xml</path>
+<path>Aircraft/PC-9M/Models/Cockpit/gearhandle.xml</path>
 <offsets>
 <x-m> 1.38</x-m>
 <y-m> 0.05</y-m>
@@ -714,7 +714,7 @@ livery_update.stop();
 
 <model>
 <name>RedLight</name>
-<path>Aircraft/pc7/Models/Lights/RedLight.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/RedLight.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -724,7 +724,7 @@ livery_update.stop();
 
 <model>
 <name>GreenLight</name>
-<path>Aircraft/pc7/Models/Lights/GreenLight.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/GreenLight.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -734,7 +734,7 @@ livery_update.stop();
 
 <model>
 <name>StrobeLightR</name>
-<path>Aircraft/pc7/Models/Lights/StrobeLightR.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/StrobeLightR.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -744,7 +744,7 @@ livery_update.stop();
 
 <model>
 <name>StrobeLightL</name>
-<path>Aircraft/pc7/Models/Lights/StrobeLightL.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/StrobeLightL.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -754,7 +754,7 @@ livery_update.stop();
 
 <model>
 <name>BeaconLight1</name>
-<path>Aircraft/pc7/Models/Lights/BeaconLight1.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/BeaconLight1.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -764,7 +764,7 @@ livery_update.stop();
 
 <model>
 <name>BeaconLight2</name>
-<path>Aircraft/pc7/Models/Lights/BeaconLight2.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/BeaconLight2.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -774,7 +774,7 @@ livery_update.stop();
 
 <model>
 <name>PositionLightR</name>
-<path>Aircraft/pc7/Models/Lights/PositionLightR.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/PositionLightR.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -784,7 +784,7 @@ livery_update.stop();
 
 <model>
 <name>PositionLightL</name>
-<path>Aircraft/pc7/Models/Lights/PositionLightL.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/PositionLightL.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.00</y-m>
@@ -794,7 +794,7 @@ livery_update.stop();
 
 <model>
 <name>LightConeR</name>
-<path>Aircraft/pc7/Models/Lights/LightConeR.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/LightConeR.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m>-0.70</y-m>
@@ -804,7 +804,7 @@ livery_update.stop();
 
 <model>
 <name>LightConeL</name>
-<path>Aircraft/pc7/Models/Lights/LightConeL.xml</path>
+<path>Aircraft/PC-9M/Models/Lights/LightConeL.xml</path>
 <offsets>
 <x-m> 0.00</x-m>
 <y-m> 0.70</y-m>
@@ -1079,14 +1079,14 @@ livery_update.stop();
 <animation>
 <type>shader</type>
 <shader>chrome</shader>
-<texture>Aircraft/pc7/Models/Shaders/Chrome1.png</texture>
+<texture>Aircraft/PC-9M/Models/Shaders/Chrome1.png</texture>
 <object-name>canopy_shell</object-name>
 </animation>
 
 <animation>
 <type>shader</type>
 <shader>chrome</shader>
-<texture>Aircraft/pc7/Models/Shaders/Chrome2.png</texture>
+<texture>Aircraft/PC-9M/Models/Shaders/Chrome2.png</texture>
 <object-name>spinner</object-name>
 <object-name>exhaust</object-name>
 </animation>
@@ -1120,7 +1120,7 @@ livery_update.stop();
 <object-name>left_wheel</object-name>
 <property-base>sim/model/livery</property-base>
 <texture-prop>texture</texture-prop>
-<texture>/Models/Liveries/PC-7/SAR.png</texture>
+<texture>/Models/Liveries/T-6/USA.png</texture>
 </animation>
 
 </PropertyList>

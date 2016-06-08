@@ -1,22 +1,20 @@
-<?xml version="1.0"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 T-38 instrument panel.
 David Culp, davidculp2@comcast.net, March 2003
 License:  GPL
 _______________________________________________________________________
 -->
-
 <PropertyList>
  <name>pc7 Panel</name>
- <background>Aircraft/pc7/Panels/Textures/background.png</background>
+ <background>Aircraft/pc7/Panels/Textures/background.rgb</background>
  <w>1024</w>
  <h>512</h>
- <y-offset>0</y-offset>
+ <y-offset>-20</y-offset>
  <view-height>768</view-height>
 
  <instruments>
-
+<!--
   <instrument include="../../Instruments/trn.xml">
    <name>Turn and Bank</name>
    <x>200</x>
@@ -186,7 +184,7 @@ _______________________________________________________________________
    <w>65</w>
    <h>65</h>
   </instrument>
-<!--
+
   <instrument include="../Instruments/aero.xml">
    <name>Aero data</name>
    <x>765</x>
@@ -194,8 +192,7 @@ _______________________________________________________________________
    <w>160</w>
    <h>140</h>
   </instrument>
--->
-<!--
+
   <instrument include="../Instruments/engine.xml">
    <name>Engine data</name>
    <x>765</x>
@@ -203,7 +200,7 @@ _______________________________________________________________________
    <w>160</w>
    <h>140</h>
   </instrument>
--->
+
   <instrument include="../../Instruments/radar.xml">
    <name>Radar</name>
    <condition>
@@ -232,7 +229,7 @@ _______________________________________________________________________
    <h>16</h>
   </instrument>
 
-
+-->
  </instruments>
 
 </PropertyList>

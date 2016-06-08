@@ -9,7 +9,7 @@
 <status>beta</status>
 
 <flight-model>jsb</flight-model>
-<aero>pc7</aero>
+<aero>PC-7</aero>
 
 <startup>
 <splash-texture>Aircraft/pc7/splash.png</splash-texture>
@@ -20,7 +20,7 @@
 
 <systems>
 <electrical>
-<path>Aircraft/pc7/PC-7-electrical.xml</path>
+<path>Aircraft/pc7/pc7-electrical.xml</path>
 </electrical>
 
 
@@ -44,7 +44,7 @@
 </systems> 
 
 <sound>
-<path>Aircraft/pc7/Sounds/PC-7-sound.xml</path>
+<path>Aircraft/pc7/Sounds/pc7-sound.xml</path>
 </sound>
 
 <model>
@@ -58,7 +58,7 @@
 <allow-toggle-cockpit archive="y">false</allow-toggle-cockpit>
 
 <panel>
-<path>Aircraft/pc7/Panels/PC-7-panel.xml</path>
+<path>Aircraft/pc7/Panels/pc7-panel.xml</path>
 <visibility archive="y">true</visibility>
 </panel>
 
@@ -226,17 +226,15 @@
 <!--Nasal -->
 
 <nasal>
-<PC-9M>
-<file>Aircraft/pc7/Nasal/liveries.nas</file>
+<pc7>
+<file>Aircraft/pc7/Nasal/liveriespc7.nas</file>
 <file>Aircraft/pc7/Nasal/light.nas</file>
 <file>Aircraft/pc7/Nasal/vhf22.nas</file>
-<!-- vir32.nas causes FG to crash. IAHM-COL June 2016
 <file>Aircraft/pc7/Nasal/vir32.nas</file>
--->
 <tyresmoke>
 <file>Aircraft/pc7/Nasal/tyresmoke.nas</file>
 </tyresmoke>
-</PC-9M>
+</pc7>
 </nasal>
 
 </PropertyList>

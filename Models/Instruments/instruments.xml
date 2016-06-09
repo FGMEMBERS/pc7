@@ -34,6 +34,7 @@
 		</offsets>
 	</model>
 
+<!--
 	<model>
 		<name>Magnetic Compass</name>
 		<path>Aircraft/pc7/Models/Instruments/Compass/Compass.xml</path>
@@ -43,6 +44,7 @@
 			<z-m> 1.26</z-m>
 		</offsets>
 	</model>
+-->
 
 	<model>
 		<name>Flaps Indicator</name>
@@ -428,6 +430,7 @@
 		</offsets>
 	</model>
 
+<!--
 	<model>
 		<name>Magnetic Compass 2</name>
 		<path>Aircraft/pc7/Models/Instruments/Compass/Compass.xml</path>
@@ -437,6 +440,7 @@
 			<z-m> 1.30</z-m>
 		</offsets>
 	</model>
+-->
 
 	<model>
 		<name>Flaps Indicator 2</name>

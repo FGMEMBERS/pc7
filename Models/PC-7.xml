@@ -187,6 +187,7 @@ livery_update.stop();
 </axis>
 </animation>
 
+
 <animation>
 <type>select</type>
 <object-name>propeller</object-name>
@@ -387,12 +388,12 @@ livery_update.stop();
                 <factor>100</factor>
                 <offset-deg>-100</offset-deg>
                 <axis>
-                        <x1-m>-1.76</x1-m>
+                        <x1-m>-1.81</x1-m>
                         <y1-m>-0.05</y1-m>
-                        <z1-m> 0.48</z1-m>
-                        <x2-m>-1.76</x2-m>
+                        <z1-m> 0.33</z1-m>
+                        <x2-m>-1.81</x2-m>
                         <y2-m> 0.05</y2-m>
-                        <z2-m> 0.48</z2-m>
+                        <z2-m> 0.33</z2-m>
                 </axis>
         </animation>
 
@@ -446,11 +447,11 @@ livery_update.stop();
                 <factor>91</factor>
                 <offset-deg>-91</offset-deg>
                 <axis>
-                        <x1-m>-0.20</x1-m>
-                        <y1-m> 1.14</y1-m>
+                        <x1-m>-0.24</x1-m>
+                        <y1-m> 1.05</y1-m>
                         <z1-m> 0.16</z1-m>
-                        <x2-m> 0.20</x2-m>
-                        <y2-m> 1.29</y2-m>
+                        <x2-m> 0.24</x2-m>
+                        <y2-m> 1.05</y2-m>
                         <z2-m> 0.16</z2-m>
                 </axis>
         </animation>
@@ -459,15 +460,15 @@ livery_update.stop();
                 <type>rotate</type>
                 <object-name>rhydro</object-name>
                 <property>gear/gear[2]/position-norm</property>
-                <factor>-170</factor>
-                <offset-deg>170</offset-deg>
+                <factor>-120</factor>
+                <offset-deg>120</offset-deg>
                 <axis>
-                        <x1-m> 0.00</x1-m>
-                        <y1-m> 1.18</y1-m>
-                        <z1-m>-0.11</z1-m>
-                        <x2-m> 0.04</x2-m>
-                        <y2-m> 1.18</y2-m>
-                        <z2-m>-0.11</z2-m>
+                        <x1-m>-0.24</x1-m>
+                        <y1-m> 1.08</y1-m>
+                        <z1-m>-0.18</z1-m>
+                        <x2-m> 0.24</x2-m>
+                        <y2-m> 1.08</y2-m>
+                        <z2-m>-0.18</z2-m>
                 </axis>
         </animation>
 
@@ -486,11 +487,11 @@ livery_update.stop();
                 <factor>-91</factor>
                 <offset-deg>91</offset-deg>
                 <axis>
-                        <x1-m>-0.20</x1-m>
-                        <y1-m>-1.14</y1-m>
+                        <x1-m>-0.24</x1-m>
+                        <y1-m>-1.05</y1-m>
                         <z1-m> 0.16</z1-m>
-                        <x2-m> 0.20</x2-m>
-                        <y2-m>-1.29</y2-m>
+                        <x2-m> 0.24</x2-m>
+                        <y2-m>-1.05</y2-m>
                         <z2-m> 0.16</z2-m>
                 </axis>
         </animation>
@@ -499,15 +500,15 @@ livery_update.stop();
                 <type>rotate</type>
                 <object-name>lhydro</object-name>
                 <property>gear/gear[1]/position-norm</property>
-                <factor>170</factor>
-                <offset-deg>-170</offset-deg>
+                <factor>120</factor>
+                <offset-deg>-120</offset-deg>
                 <axis>
-                        <x1-m> 0.00</x1-m>
-                        <y1-m>-1.18</y1-m>
-                        <z1-m>-0.11</z1-m>
-                        <x2-m> 0.04</x2-m>
-                        <y2-m>-1.18</y2-m>
-                        <z2-m>-0.11</z2-m>
+                        <x1-m>-0.24</x1-m>
+                        <y1-m>-1.08</y1-m>
+                        <z1-m>-0.18</z1-m>
+                        <x2-m> 0.24</x2-m>
+                        <y2-m>-1.08</y2-m>
+                        <z2-m>-0.18</z2-m>
                 </axis>
         </animation>
 
@@ -532,9 +533,10 @@ livery_update.stop();
 
         <animation>
                 <type>select</type>
+<!--
                 <object-name>rwheel</object-name>
                 <object-name>rtyre</object-name>
-<!--
+-->
                 <object-name>rstrut</object-name>
                 <object-name>rdstrut</object-name>
                 <object-name>ruring</object-name>
@@ -542,7 +544,6 @@ livery_update.stop();
                 <object-name>ruscissor</object-name>
                 <object-name>rdscissor</object-name>
                 <object-name>rhydro</object-name>
--->
                 <condition>
                         <greater-than>
                                 <property>gear/gear[2]/position-norm</property>
@@ -553,9 +554,10 @@ livery_update.stop();
 
         <animation>
                 <type>select</type>
+<!--
                 <object-name>lwheel</object-name>
                 <object-name>ltyre</object-name>
-<!--
+-->
                 <object-name>lstrut</object-name>
                 <object-name>ldstrut</object-name>
                 <object-name>luring</object-name>
@@ -563,7 +565,6 @@ livery_update.stop();
                 <object-name>luscissor</object-name>
                 <object-name>ldscissor</object-name>
                 <object-name>lhydro</object-name>
--->
                 <condition>
                         <greater-than>
                                 <property>gear/gear[1]/position-norm</property>
@@ -576,36 +577,36 @@ livery_update.stop();
 
 <animation>
 <type>rotate</type>
-<object-name>right_door</object-name>
+<object-name>left_door</object-name>
 <property>gear/gear[0]/position-norm</property>
-<factor>-500</factor>
-<offset-deg>180</offset-deg>
+<factor>500</factor>
+<offset-deg>-90</offset-deg>
 <min-deg>0</min-deg>
 <max-deg>90</max-deg>
 <axis>   
-<x1-m>-1.92</x1-m>
+<x1-m>-0.94</x1-m>
 <y1-m>-0.14</y1-m>
-<z1-m> 0.02</z1-m>
-<x2-m>-0.95</x2-m>
-<y2-m>-0.10</y2-m>
+<z1-m>-0.01</z1-m>
+<x2-m>-1.91</x2-m>
+<y2-m>-0.14</y2-m>
 <z2-m> 0.02</z2-m>
 </axis>
 </animation>
 
 <animation>
 <type>rotate</type>
-<object-name>left_door</object-name>
+<object-name>right_door</object-name>
 <property>gear/gear[0]/position-norm</property>
-<factor>500</factor>
-<offset-deg>-180</offset-deg>
+<factor>-500</factor>
+<offset-deg>90</offset-deg>
 <min-deg>-90</min-deg>
 <max-deg>0</max-deg>
 <axis>   
-<x1-m>-1.92</x1-m>
+<x1-m>-0.94</x1-m>
 <y1-m> 0.14</y1-m>
-<z1-m> 0.02</z1-m>
-<x2-m>-0.95</x2-m>
-<y2-m> 0.10</y2-m>
+<z1-m>-0.01</z1-m>
+<x2-m>-1.91</x2-m>
+<y2-m> 0.14</y2-m>
 <z2-m> 0.02</z2-m>
 </axis>
 </animation>
@@ -615,11 +616,11 @@ livery_update.stop();
 <object-name>back_right_door</object-name>
 <property>gear/gear[2]/position-norm</property>
 <factor>-120</factor>
-<offset-deg>120</offset-deg>
+<offset-deg>0</offset-deg>
 <center>
-<x-m> 0.17</x-m>
+<x-m> 0.19</x-m>
 <y-m> 1.16</y-m>
-<z-m> 0.07</z-m>
+<z-m>-0.06</z-m>
 </center>
 <axis>
 <x>-1</x>
@@ -633,11 +634,11 @@ livery_update.stop();
 <object-name>back_left_door</object-name>
 <property>gear/gear[1]/position-norm</property>
 <factor>120</factor>
-<offset-deg>-120</offset-deg>
+<offset-deg>0</offset-deg>
 <center>
 <x-m> 0.17</x-m>
 <y-m>-1.16</y-m>
-<z-m> 0.07</z-m>
+<z-m>-0.06</z-m>
 </center>
 <axis>
 <x>-1</x>
@@ -646,22 +647,44 @@ livery_update.stop();
 </axis>
 </animation>
 
-<animation>
-<type>shader</type>
-<shader>chrome</shader>
-<texture>Aircraft/pc7/Models/Shaders/Chrome1.png</texture>
-<object-name>canopy_shell</object-name>
-</animation>
+<effect>
+  <inherits-from>Aircraft/pc7/Models/Effects/glass/glass</inherits-from>
+  <object-name>canopy_inner_shell</object-name>
+</effect>
 
-<!--
-<animation>
-<type>shader</type>
-<shader>chrome</shader>
-<texture>Aircraft/pc7/Models/Shaders/Chrome2.png</texture>
-<object-name>spinner</object-name>
-<object-name>undercarriage</object-name>
-</animation>
--->
+<effect>
+  <inherits-from>Effects/model-combined-transparent</inherits-from>
+  <parameters>
+    <normalmap-enabled type="int">0</normalmap-enabled>
+    <lightmap-enabled type="int">0</lightmap-enabled>
+    <reflection-enabled type="int">1</reflection-enabled>
+    <reflection-correction type="float">0.5</reflection-correction>
+    <reflect-map-enabled type="int">1</reflect-map-enabled>
+    <reflection-fresnel type="float">0.5</reflection-fresnel>
+    <reflection-rainbow type="float">0.6</reflection-rainbow>
+    <reflection-noise type="float">0.0</reflection-noise>
+    <reflection-dynamic type="int">1</reflection-dynamic>
+      <texture n= "5" >
+        <type>cubemap</type>
+        <images>
+          <positive-x>Aircraft/Generic/Effects/fgfs-sky2/1.png</positive-x>
+          <negative-x>Aircraft/Generic/Effects/fgfs-sky2/4.png</negative-x>
+          <positive-y>Aircraft/Generic/Effects/fgfs-sky2/2.png</positive-y>
+          <negative-y>Aircraft/Generic/Effects/fgfs-sky2/3.png</negative-y>
+          <positive-z>Aircraft/Generic/Effects/fgfs-sky2/6.png</positive-z>
+          <negative-z>Aircraft/Generic/Effects/fgfs-sky2/5.png</negative-z>
+        </images>
+      </texture>
+    <ambient-correction type="float">0.2</ambient-correction>
+    <rendering-hint>transparent</rendering-hint>
+    <transparent>true</transparent>
+    <render-bin>
+      <bin-number>10</bin-number>
+      <bin-name>DepthSortedBin</bin-name>
+    </render-bin>
+  </parameters>
+  <object-name>canopy_outer_shell</object-name>
+ </effect>
 
 <animation>
 <type>material</type>
@@ -680,18 +703,10 @@ livery_update.stop();
 <object-name>elevator</object-name>
 <object-name>left_door</object-name>
 <object-name>right_door</object-name>
-<object-name>back_right_door_inner</object-name>
-<object-name>back_left_door_inner</object-name>
 <object-name>back_right_door</object-name>
 <object-name>back_left_door</object-name>
 <object-name>front_strut</object-name>
 <object-name>right_strut</object-name>
-<!--
-<object-name>left_strut</object-name>
-<object-name>nose_wheel</object-name>
-<object-name>right_wheel</object-name>
-<object-name>left_wheel</object-name>
--->
 <property-base>sim/model/livery</property-base>
 <texture-prop>texture</texture-prop>
 <texture>/Models/Liveries/PC-7/SAR.png</texture>

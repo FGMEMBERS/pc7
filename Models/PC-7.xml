@@ -4,8 +4,8 @@
 
 <path>PC-7.ac</path>
 <offsets>
-<pitch-deg>-4.00</pitch-deg>
-<z-offset-m>-0.30</z-offset-m>
+<pitch-deg>-1.25</pitch-deg>
+<z-m>-0.20</z-m>
 </offsets>
 
 <nasal>
@@ -372,60 +372,207 @@ livery_update.stop();
 </axis>
 </animation>
 
-<animation>
-<type>rotate</type>
-<object-name>nose_wheel</object-name>
-<object-name>front_strut</object-name>
-<property>gear/gear[0]/position-norm</property>
-<factor>100</factor>
-<offset-deg>-100</offset-deg>
-<axis>
-<x1-m>-1.84</x1-m>
-<y1-m>-0.05</y1-m>
-<z1-m> 0.34</z1-m>   
-<x2-m>-1.84</x2-m>
-<y2-m> 0.05</y2-m>
-<z2-m> 0.34</z2-m>
-</axis>
-</animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>fwheel</object-name>
+                <object-name>ftyre</object-name>
+                <object-name>fgear</object-name>
+                <object-name>fstrut</object-name>
+                <object-name>furingu</object-name>
+                <object-name>fhydro</object-name>
+                <object-name>fdring</object-name>
+                <object-name>fuscissor</object-name>
+                <object-name>fdscissor</object-name>
+                <property>gear/gear[0]/position-norm</property>
+                <factor>100</factor>
+                <offset-deg>-100</offset-deg>
+                <axis>
+                        <x1-m>-1.76</x1-m>
+                        <y1-m>-0.05</y1-m>
+                        <z1-m> 0.48</z1-m>
+                        <x2-m>-1.76</x2-m>
+                        <y2-m> 0.05</y2-m>
+                        <z2-m> 0.48</z2-m>
+                </axis>
+        </animation>
 
-<animation>
-<type>rotate</type>
-<object-name>right_wheel</object-name>
-<object-name>right_strut</object-name>
-<property>gear/gear[2]/position-norm</property>
-<factor>-93</factor>
-<offset-deg>93</offset-deg>
-<center>
-<x-m> 0.29</x-m>
-<y-m> 1.10</y-m>
-<z-m> 0.08</z-m>
-</center>
-<axis>
-<x>-1</x>
-<y> 0</y>
-<z> 0</z>
-</axis>
-</animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>fhydro</object-name>
+                <property>gear/gear[0]/position-norm</property>
+                <factor>-45</factor>
+                <offset-deg>45</offset-deg>
+                <axis>
+                        <x1-m>-1.73</x1-m>
+                        <y1-m> 0.10</y1-m>
+                        <z1-m>-0.06</z1-m>
+                        <x2-m>-1.73</x2-m>
+                        <y2-m>-0.10</y2-m>
+                        <z2-m>-0.06</z2-m>
+                </axis>
+        </animation>
 
-<animation>
-<type>rotate</type>
-<object-name>left_wheel</object-name>
-<object-name>left_strut</object-name>
-<property>gear/gear[1]/position-norm</property>
-<factor>93</factor>
-<offset-deg>-93</offset-deg>
-<center>
-<x-m> 0.29</x-m>
-<y-m>-1.10</y-m>
-<z-m> 0.08</z-m>
-</center>
-<axis>
-<x>-1</x>
-<y>0</y>
-<z>0</z>
-</axis>
-</animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>fwheel</object-name>
+                <object-name>ftyre</object-name>
+                <object-name>fgear</object-name>
+                <property>surface-positions/rudder-pos-norm</property>
+                <factor>-20</factor>
+                <center>
+                        <x-m>-1.84</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.31</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <z>1.0</z>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>rotate</type>
+                <object-name>rwheel</object-name>
+                <object-name>rtyre</object-name>
+                <object-name>rstrut</object-name>
+                <object-name>rdstrut</object-name>
+                <object-name>ruring</object-name>
+                <object-name>rdring</object-name>
+                <object-name>ruscissor</object-name>
+                <object-name>rdscissor</object-name>
+                <object-name>rhydro</object-name>
+                <property>gear/gear[2]/position-norm</property>
+                <factor>91</factor>
+                <offset-deg>-91</offset-deg>
+                <axis>
+                        <x1-m>-0.20</x1-m>
+                        <y1-m> 1.14</y1-m>
+                        <z1-m> 0.16</z1-m>
+                        <x2-m> 0.20</x2-m>
+                        <y2-m> 1.29</y2-m>
+                        <z2-m> 0.16</z2-m>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>rotate</type>
+                <object-name>rhydro</object-name>
+                <property>gear/gear[2]/position-norm</property>
+                <factor>-170</factor>
+                <offset-deg>170</offset-deg>
+                <axis>
+                        <x1-m> 0.00</x1-m>
+                        <y1-m> 1.18</y1-m>
+                        <z1-m>-0.11</z1-m>
+                        <x2-m> 0.04</x2-m>
+                        <y2-m> 1.18</y2-m>
+                        <z2-m>-0.11</z2-m>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>rotate</type>
+                <object-name>lwheel</object-name>
+                <object-name>ltyre</object-name>
+                <object-name>lstrut</object-name>
+                <object-name>ldstrut</object-name>
+                <object-name>luring</object-name>
+                <object-name>ldring</object-name>
+                <object-name>luscissor</object-name>
+                <object-name>ldscissor</object-name>
+                <object-name>lhydro</object-name>
+                <property>gear/gear[1]/position-norm</property>
+                <factor>-91</factor>
+                <offset-deg>91</offset-deg>
+                <axis>
+                        <x1-m>-0.20</x1-m>
+                        <y1-m>-1.14</y1-m>
+                        <z1-m> 0.16</z1-m>
+                        <x2-m> 0.20</x2-m>
+                        <y2-m>-1.29</y2-m>
+                        <z2-m> 0.16</z2-m>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>rotate</type>
+                <object-name>lhydro</object-name>
+                <property>gear/gear[1]/position-norm</property>
+                <factor>170</factor>
+                <offset-deg>-170</offset-deg>
+                <axis>
+                        <x1-m> 0.00</x1-m>
+                        <y1-m>-1.18</y1-m>
+                        <z1-m>-0.11</z1-m>
+                        <x2-m> 0.04</x2-m>
+                        <y2-m>-1.18</y2-m>
+                        <z2-m>-0.11</z2-m>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>select</type>
+                <object-name>fwheel</object-name>
+                <object-name>ftyre</object-name>
+                <object-name>fgear</object-name>
+                <object-name>fstrut</object-name>
+                <object-name>furingu</object-name>
+                <object-name>fhydro</object-name>
+                <object-name>fdring</object-name>
+                <object-name>fuscissor</object-name>
+                <object-name>fdscissor</object-name>
+                <condition>
+                        <greater-than>
+                                <property>gear/gear[0]/position-norm</property>
+                                <value>0</value>
+                        </greater-than>
+                </condition>
+        </animation>
+
+        <animation>
+                <type>select</type>
+                <object-name>rwheel</object-name>
+                <object-name>rtyre</object-name>
+<!--
+                <object-name>rstrut</object-name>
+                <object-name>rdstrut</object-name>
+                <object-name>ruring</object-name>
+                <object-name>rdring</object-name>
+                <object-name>ruscissor</object-name>
+                <object-name>rdscissor</object-name>
+                <object-name>rhydro</object-name>
+-->
+                <condition>
+                        <greater-than>
+                                <property>gear/gear[2]/position-norm</property>
+                                <value>0</value>
+                        </greater-than>
+                </condition>
+        </animation>
+
+        <animation>
+                <type>select</type>
+                <object-name>lwheel</object-name>
+                <object-name>ltyre</object-name>
+<!--
+                <object-name>lstrut</object-name>
+                <object-name>ldstrut</object-name>
+                <object-name>luring</object-name>
+                <object-name>ldring</object-name>
+                <object-name>luscissor</object-name>
+                <object-name>ldscissor</object-name>
+                <object-name>lhydro</object-name>
+-->
+                <condition>
+                        <greater-than>
+                                <property>gear/gear[1]/position-norm</property>
+                                <value>0</value>
+                        </greater-than>
+                </condition>
+        </animation>
+
+
 
 <animation>
 <type>rotate</type>
@@ -539,10 +686,12 @@ livery_update.stop();
 <object-name>back_left_door</object-name>
 <object-name>front_strut</object-name>
 <object-name>right_strut</object-name>
+<!--
 <object-name>left_strut</object-name>
 <object-name>nose_wheel</object-name>
 <object-name>right_wheel</object-name>
 <object-name>left_wheel</object-name>
+-->
 <property-base>sim/model/livery</property-base>
 <texture-prop>texture</texture-prop>
 <texture>/Models/Liveries/PC-7/SAR.png</texture>

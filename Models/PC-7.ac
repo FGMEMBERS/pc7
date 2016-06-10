@@ -69492,7 +69492,7 @@ name "propeller"
 loc -3.25496 0.753637 0.148362
 data 8
 Mesh.156
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/PC-9M/Models/Liveries/Propeller.png"
+texture "Liveries/PC-7/Propeller.png"
 crease 60.000000
 numvert 153
 -0.0128207 -1.01397 -1.02242
@@ -71417,7 +71417,7 @@ kids 0
 OBJECT poly
 name "pdisk"
 loc -3.14493 0.59368 -0.00590195
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/PC-9M/Models/Liveries/Disk.png"
+texture "Liveries/PC-7/Disk.png"
 crease 45.000000
 subdiv 1
 numvert 25
@@ -71595,7 +71595,7 @@ kids 0
 OBJECT poly
 name "prop"
 loc -3.14493 0.59368 -0.000438707
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/PC-9M/Models/Liveries/Blur.png"
+texture "Liveries/PC-7/Blur.png"
 crease 45.000000
 subdiv 1
 numvert 25

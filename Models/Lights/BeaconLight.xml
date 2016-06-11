@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-<path>BeaconLight1.ac</path>
+<path>WhiteLight.ac</path>
 
 <animation>
 <type>select</type>
@@ -11,6 +11,16 @@
 <property>/sim/model/lights/beacon/state</property>
 </condition>
 </animation>
+
+<animation>
+  <type>scale</type>
+  <object-name>Light</object-name>
+  <property>/sim/time/sun-angle-rad</property>
+  <offset>-1.4</offset>
+  <x-factor>2</x-factor>
+  <y-factor>2</y-factor>
+  <z-factor>2</z-factor>
+ </animation>
 
 <animation>
 <type>noshadow</type>

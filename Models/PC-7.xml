@@ -35,9 +35,9 @@ livery_update.stop();
 <name>RedLight</name>
 <path>Aircraft/pc7/Models/Lights/RedLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
-<y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<x-m>-0.13</x-m>
+<y-m>-4.80</y-m>
+<z-m> 0.56</z-m>
 </offsets>
 </model>
 
@@ -45,69 +45,69 @@ livery_update.stop();
 <name>GreenLight</name>
 <path>Aircraft/pc7/Models/Lights/GreenLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
-<y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<x-m>-0.13</x-m>
+<y-m> 4.80</y-m>
+<z-m> 0.56</z-m>
 </offsets>
 </model>
 
 <model>
 <name>StrobeLightR</name>
-<path>Aircraft/pc7/Models/Lights/StrobeLightR.xml</path>
+<path>Aircraft/pc7/Models/Lights/StrobeLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
-<y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<x-m>-0.04</x-m>
+<y-m> 4.80</y-m>
+<z-m> 0.56</z-m>
 </offsets>
 </model>
 
 <model>
 <name>StrobeLightL</name>
-<path>Aircraft/pc7/Models/Lights/StrobeLightL.xml</path>
+<path>Aircraft/pc7/Models/Lights/StrobeLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
-<y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<x-m>-0.04</x-m>
+<y-m>-4.80</y-m>
+<z-m> 0.56</z-m>
 </offsets>
 </model>
 
 <model>
 <name>BeaconLight1</name>
-<path>Aircraft/pc7/Models/Lights/BeaconLight1.xml</path>
+<path>Aircraft/pc7/Models/Lights/BeaconLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
+<x-m>-0.30</x-m>
 <y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<z-m>-0.10</z-m>
 </offsets>
 </model>
 
 <model>
 <name>BeaconLight2</name>
-<path>Aircraft/pc7/Models/Lights/BeaconLight2.xml</path>
+<path>Aircraft/pc7/Models/Lights/BeaconLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
+<x-m> 2.30</x-m>
 <y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<z-m> 1.30</z-m>
 </offsets>
 </model>
 
 <model>
 <name>PositionLightR</name>
-<path>Aircraft/pc7/Models/Lights/PositionLightR.xml</path>
+<path>Aircraft/pc7/Models/Lights/WhiteLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
-<y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<x-m> 0.68</x-m>
+<y-m> 4.80</y-m>
+<z-m> 0.56</z-m>
 </offsets>
 </model>
 
 <model>
 <name>PositionLightL</name>
-<path>Aircraft/pc7/Models/Lights/PositionLightL.xml</path>
+<path>Aircraft/pc7/Models/Lights/WhiteLight.xml</path>
 <offsets>
-<x-m> 0.00</x-m>
-<y-m> 0.00</y-m>
-<z-m> 0.00</z-m>
+<x-m> 0.68</x-m>
+<y-m>-4.80</y-m>
+<z-m> 0.56</z-m>
 </offsets>
 </model>
 

@@ -5,6 +5,7 @@
  <path>WhiteLight.ac</path>
 
 <animation>
+<name>StrobeLight</name>
 <type>select</type>
 <object-name>Light</object-name>
 <condition>
@@ -13,8 +14,24 @@
 </animation>
 
 <animation>
+<type>material</type>
+<object-name>StrobeLight</object-name>
+<threshold>0.001</threshold>
+</animation>
+
+<animation>
+<type>scale</type>
+<object-name>StrobeLight</object-name>
+<property>/sim/time/sun-angle-rad</property>
+<offset>-1.4</offset>
+<x-factor>3</x-factor>
+<y-factor>3</y-factor>
+<z-factor>3</z-factor>
+</animation>
+
+<animation>
 <type>noshadow</type>
-<object-name>Light</object-name>
+<object-name>StrobeLight</object-name>
 </animation>
 
 </PropertyList>

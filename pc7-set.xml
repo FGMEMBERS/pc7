@@ -20,7 +20,7 @@
 
 <systems>
 <electrical>
-<path>Aircraft/pc7/pc7-electrical.xml</path>
+<path>Aircraft/pc7/Systems/electrical.xml</path>
 </electrical>
 
 

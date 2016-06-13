@@ -75,9 +75,9 @@ livery_update.stop();
 <name>BeaconLight1</name>
 <path>Aircraft/pc7/Models/Lights/BeaconLight.xml</path>
 <offsets>
-<x-m>-0.30</x-m>
+<x-m> 1.40</x-m>
 <y-m> 0.00</y-m>
-<z-m>-0.10</z-m>
+<z-m> 0.04</z-m>
 </offsets>
 </model>
 
@@ -87,10 +87,11 @@ livery_update.stop();
 <offsets>
 <x-m> 2.30</x-m>
 <y-m> 0.00</y-m>
-<z-m> 1.30</z-m>
+<z-m> 1.25</z-m>
 </offsets>
 </model>
 
+<!--
 <model>
 <name>PositionLightR</name>
 <path>Aircraft/pc7/Models/Lights/WhiteLight.xml</path>
@@ -110,6 +111,7 @@ livery_update.stop();
 <z-m> 0.56</z-m>
 </offsets>
 </model>
+-->
 
 <model>
 <name>LightConeR</name>

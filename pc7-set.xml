@@ -240,6 +240,7 @@
 
 <nasal>
 <pc7>
+<file>Aircraft/pc7/Nasal/rain.nas</file>
 <file>Aircraft/pc7/Nasal/liveriespc7.nas</file>
 <file>Aircraft/pc7/Nasal/light.nas</file>
 <file>Aircraft/pc7/Nasal/vhf22.nas</file>

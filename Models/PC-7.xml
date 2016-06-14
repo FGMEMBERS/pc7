@@ -652,6 +652,7 @@ livery_update.stop();
 <effect>
   <inherits-from>Aircraft/pc7/Models/Effects/glass/glass</inherits-from>
   <object-name>canopy_inner_shell</object-name>
+  <object-name>inner_shell</object-name>
 </effect>
 
 <effect>
@@ -686,7 +687,7 @@ livery_update.stop();
     </render-bin>
   </parameters>
   <object-name>canopy_outer_shell</object-name>
-  <object-name>windshield</object-name>
+  <object-name>outer_shell</object-name>
  </effect>
 
 <animation>

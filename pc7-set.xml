@@ -4,7 +4,7 @@
 
 <!--Info -->
 
-<description>Pilatus PC-7 Mk II</description>
+<description>Pilatus PC-7</description>
 <author>Petar Jedvaj, Ernest Teuscher (based on David Culp's PC-7)</author>
 <status>beta</status>
 
@@ -92,7 +92,7 @@
 <menubar>
 <default>
 <menu n="100">
-<label>Pilatus PC-7 Mk II</label>
+<label>Pilatus PC-7</label>
 <enabled type="bool">true</enabled>
 <item>
 <label>Autostart</label>

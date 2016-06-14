@@ -9,3 +9,6 @@ controls.toggleLandingLights = func()
     setprop("controls/lighting/landing-lights",!state);
 }
 
+setprop("/systems/electrical/outputs/strobe-norm", 1.0);
+setprop("/systems/electrical/outputs/nav-lights-norm", 1.0);
+#setprop("/systems/electrical/outputs/taxi-light", 0.0);

@@ -23,7 +23,6 @@
 <path>Aircraft/pc7/Systems/electrical.xml</path>
 </electrical>
 
-
 <pitot>
 <name>pitot</name>
 <number>0</number>

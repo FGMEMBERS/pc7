@@ -12,7 +12,7 @@ kids 16
 OBJECT poly
 name "ils-flag"
 loc 0.00128022 0.0125429 0.0399438
-texture "A-10-adi-b.rgb"
+texture "A-10-adi-b.png"
 crease 45.000000
 numvert 4
 0 0.00601035 -0.00284126
@@ -31,7 +31,7 @@ kids 0
 OBJECT poly
 name "off-flag"
 loc -0.00088418 -0.0122635 0.0380315
-texture "A-10-adi-b.rgb"
+texture "A-10-adi-b.png"
 crease 45.000000
 numvert 8
 0 0.000983512 0.00420725
@@ -307,7 +307,7 @@ kids 0
 OBJECT poly
 name "gs-scale"
 loc 0.00143396 0.00872992 0.0473092
-texture "A-10-adi-b.rgb"
+texture "A-10-adi-b.png"
 crease 45.000000
 numvert 4
 0 -0.0603896 -0.00421685
@@ -326,7 +326,7 @@ kids 0
 OBJECT poly
 name "ai-ring"
 loc -0.00838502 0.0132868 -0.00631411
-texture "A-10-adi-b.rgb"
+texture "A-10-adi-b.png"
 crease 180.000000
 numvert 56
 -0.0062934 0.0598777 0.0612858
@@ -658,7 +658,7 @@ kids 0
 OBJECT poly
 name "mount"
 loc 0.00973572 0.00745836 -0.00671838
-texture "A-10-adi.rgb"
+texture "A-10-adi.png"
 crease 45.000000
 numvert 32
 -0.00553988 -0.0299767 0.057359
@@ -810,7 +810,7 @@ kids 0
 OBJECT poly
 name "adi-knob"
 loc 0.0131407 -0.0472634 -0.060198
-texture "A-10-adi-b.rgb"
+texture "A-10-adi-b.png"
 crease 45.000000
 numvert 21
 0.00802855 0 0
@@ -1025,7 +1025,7 @@ kids 0
 OBJECT poly
 name "sphere"
 loc -0.0531324 0.00970772 -0.0067883
-texture "A-10-adi-c.rgb"
+texture "A-10-adi-c.png"
 crease 45.000000
 numvert 382
 -0.0157291 0.0567166 2.47383e-10
@@ -4075,7 +4075,7 @@ kids 0
 OBJECT poly
 name "ring-slip"
 loc -0.000360865 -0.0202731 -0.00674589
-texture "A-10-adi-slip.rgb"
+texture "A-10-adi-slip.png"
 crease 180.000000
 numvert 26
 0 -0.0294761 -0.0580907
@@ -4209,7 +4209,7 @@ kids 0
 OBJECT poly
 name "course-flag"
 loc 0.00128022 0.0641773 -0.00318897
-texture "A-10-adi-b.rgb"
+texture "A-10-adi-b.png"
 crease 45.000000
 numvert 4
 0 -0.00171566 0.00424594

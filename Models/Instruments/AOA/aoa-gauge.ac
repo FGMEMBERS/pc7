@@ -31,7 +31,7 @@ kids 0
 OBJECT poly
 name "face"
 loc 0.000361704 -0.00159588 0.00465806
-texture "aoa-gauge.rgb"
+texture "aoa-gauge.png"
 crease 180.000000
 numvert 16
 0.0040374 -0.0311402 -0.0312316
@@ -195,7 +195,7 @@ kids 0
 OBJECT poly
 name "mount"
 loc -0.000797536 -0.00143908 0.00460579
-texture "aoa-mount.rgb"
+texture "aoa-mount.png"
 crease 45.000000
 numvert 48
 0.00106434 0.0321651 0.0353651

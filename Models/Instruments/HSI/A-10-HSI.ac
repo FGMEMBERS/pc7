@@ -89,7 +89,7 @@ OBJECT poly
 name "HSI-bkg"
 data 8
 Mesh.002
-texture "A-10-HSI-mount.rgb"
+texture "A-10-HSI-mount.png"
 crease 80.000000
 numvert 48
 -0.00303 0.057361 0.066799
@@ -377,7 +377,7 @@ OBJECT poly
 name "HSI-compass-card"
 data 8
 Mesh.012
-texture "A-10-HSI-compass-card.rgb"
+texture "A-10-HSI-compass-card.png"
 crease 45.000000
 numvert 25
 -0.002333 -0.000112 0.039886
@@ -555,7 +555,7 @@ OBJECT poly
 name "HSI-course-card"
 data 8
 Mesh.020
-texture "A-10-HSI-course-card.rgb"
+texture "A-10-HSI-course-card.png"
 crease 45.000000
 numvert 29
 -0.001853 0.032763 0.000951
@@ -792,7 +792,7 @@ OBJECT poly
 name "bearing-needle-1"
 data 8
 Mesh.009
-texture "A-10-HSI-mount.rgb"
+texture "A-10-HSI-mount.png"
 crease 45.000000
 numvert 9
 -0.001824 0.045017 -0.001434
@@ -914,7 +914,7 @@ OBJECT poly
 name "course-knob"
 data 8
 Mesh.014
-texture "A-10-HSI-mount.rgb"
+texture "A-10-HSI-mount.png"
 crease 45.000000
 numvert 21
 0.019233 -0.041252 -0.049235
@@ -1074,7 +1074,7 @@ OBJECT poly
 name "heading-set-knob"
 data 8
 Mesh.013
-texture "A-10-HSI-mount.rgb"
+texture "A-10-HSI-mount.png"
 crease 45.000000
 numvert 21
 0.019233 -0.034917 0.057029
@@ -1313,7 +1313,7 @@ OBJECT poly
 name "miles-flag"
 data 8
 Mesh.010
-texture "A-10-HSI-mount.rgb"
+texture "A-10-HSI-mount.png"
 crease 45.000000
 numvert 4
 -0.001736 0.029387 0.044397
@@ -1333,7 +1333,7 @@ OBJECT poly
 name "off-flag"
 data 8
 Mesh.011
-texture "A-10-HSI-mount.rgb"
+texture "A-10-HSI-mount.png"
 crease 45.000000
 numvert 4
 -0.002259 0.003925 -0.061703

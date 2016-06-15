@@ -13,7 +13,6 @@
 
 <startup>
 <splash-texture>Aircraft/pc7/splash.png</splash-texture>
-<splash-title>100 years of aviation in Croatia</splash-title>
 </startup>
 
 <!--Systems -->
@@ -61,7 +60,7 @@
 <pitch-offset-deg>-10.0</pitch-offset-deg>
 <default-field-of-view-deg type="double">77.0</default-field-of-view-deg>
 <x-offset-m archive="y"> 0.00</x-offset-m>
-<y-offset-m archive="y"> 0.90</y-offset-m>
+<y-offset-m archive="y"> 0.80</y-offset-m>
 <z-offset-m archive="y">-0.20</z-offset-m>
 </config>
 </view>

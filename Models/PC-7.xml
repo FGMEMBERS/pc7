@@ -25,7 +25,7 @@ livery_update.stop();
 <offsets>
 <x-m>0.15</x-m>
 <y-m>0.00</y-m>
-<z-m>-0.155</z-m>
+<z-m>-0.185</z-m>
 </offsets>
 </model>
 
@@ -560,6 +560,12 @@ livery_update.stop();
 <z>0</z>
 </axis>
 </animation>
+
+<effect>
+  <inherits-from>Aircraft/pc7/Models/Effects/bumpspec-body</inherits-from>
+  <object-name>fuselage</object-name>
+  <object-name>wings</object-name>
+</effect>
 
 <effect>
   <inherits-from>Aircraft/pc7/Models/Effects/glass/glass</inherits-from>

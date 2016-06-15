@@ -2061,7 +2061,7 @@ refs 4
 14 0.422812 0.788511
 kids 0
 OBJECT poly
-name "fuselage2"
+name "fuselage"
 loc 1.29307 1.06346 -1.45137e-05
 texture "Liveries/PC-7/KLU_vintage.png"
 crease 45.000000

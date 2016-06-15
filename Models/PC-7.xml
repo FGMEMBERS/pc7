@@ -4,8 +4,8 @@
 
 <path>PC-7.ac</path>
 <offsets>
-<pitch-deg>-3.30</pitch-deg>
-<z-m>-0.30</z-m>
+<pitch-deg>-2.5</pitch-deg>
+<z-m>-0.35</z-m>
 </offsets>
 
 <nasal>
@@ -262,7 +262,7 @@ livery_update.stop();
 <object-name>rudder</object-name>
 <property>surface-positions/rudder-pos-norm</property>
 <factor>-20</factor>
-<axis>   
+<axis>
 <x1-m> 4.70</x1-m>
 <y1-m> 0.00</y1-m>
 <z1-m> 2.49</z1-m>
@@ -277,7 +277,7 @@ livery_update.stop();
 <object-name>elevator</object-name>
 <property>surface-positions/elevator-pos-norm</property>
 <factor>20</factor>
-<axis>   
+<axis>
 <x1-m> 5.53</x1-m>
 <y1-m>-1.42</y1-m>
 <z1-m> 0.72</z1-m>
@@ -348,6 +348,70 @@ livery_update.stop();
 
         <animation>
                 <type>rotate</type>
+                <object-name>fuscissor</object-name>
+                <object-name>fdscissor</object-name>
+                <object-name>fstrut</object-name>
+                <object-name>fdring</object-name>
+                <object-name>fgear</object-name>
+                <object-name>fwheel</object-name>
+                <object-name>ftyre</object-name>
+                <property>gear/gear[0]/compression-norm</property>
+                <factor>40</factor>
+                <center>
+                        <x-m>-1.89</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.06</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>fdscissor</object-name>
+                <object-name>fstrut</object-name>
+                <object-name>fdring</object-name>
+                <object-name>fgear</object-name>
+                <object-name>fwheel</object-name>
+                <object-name>ftyre</object-name>
+                <property>gear/gear[0]/compression-norm</property>
+                <factor>-120</factor>
+                <center>
+                        <x-m>-2.02</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.14</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>fstrut</object-name>
+                <object-name>fdring</object-name>
+                <object-name>fgear</object-name>
+                <object-name>fwheel</object-name>
+                <object-name>ftyre</object-name>
+                <property>gear/gear[0]/compression-norm</property>
+                <factor>80</factor>
+                <center>
+                        <x-m>-1.90</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.27</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>rotate</type>
                 <object-name>rwheel</object-name>
                 <object-name>rtyre</object-name>
                 <object-name>rstrut</object-name>
@@ -388,6 +452,71 @@ livery_update.stop();
 
         <animation>
                 <type>rotate</type>
+                <object-name>ruscissor</object-name>
+                <object-name>rdscissor</object-name>
+                <object-name>rdstrut</object-name>
+                <object-name>rdring</object-name>
+                <object-name>rgear</object-name>
+                <object-name>rwheel</object-name>
+                <object-name>rtyre</object-name>
+                <property>gear/gear[2]/compression-norm</property>
+                <factor>20</factor>
+                <center>
+                        <x-m> 0.41</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.35</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>rdscissor</object-name>
+                <object-name>rdstrut</object-name>
+                <object-name>rdring</object-name>
+                <object-name>rgear</object-name>
+                <object-name>rwheel</object-name>
+                <object-name>rtyre</object-name>
+                <property>gear/gear[2]/compression-norm</property>
+                <factor>-60</factor>
+                <center>
+                        <x-m> 0.28</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.43</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>rdstrut</object-name>
+                <object-name>rdring</object-name>
+                <object-name>rgear</object-name>
+                <object-name>rwheel</object-name>
+                <object-name>rtyre</object-name>
+                <property>gear/gear[2]/compression-norm</property>
+                <factor>40</factor>
+                <center>
+                        <x-m> 0.40</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.51</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+
+
+        <animation>
+                <type>rotate</type>
                 <object-name>lwheel</object-name>
                 <object-name>ltyre</object-name>
                 <object-name>lstrut</object-name>
@@ -423,6 +552,70 @@ livery_update.stop();
                         <x2-m> 0.24</x2-m>
                         <y2-m>-1.08</y2-m>
                         <z2-m>-0.18</z2-m>
+                </axis>
+        </animation>
+
+        <animation>
+                <type>rotate</type>
+                <object-name>luscissor</object-name>
+                <object-name>ldscissor</object-name>
+                <object-name>ldstrut</object-name>
+                <object-name>ldring</object-name>
+                <object-name>lgear</object-name>
+                <object-name>lwheel</object-name>
+                <object-name>ltyre</object-name>
+                <property>gear/gear[1]/compression-norm</property>
+                <factor>20</factor>
+                <center>
+                        <x-m> 0.41</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.35</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>ldscissor</object-name>
+                <object-name>ldstrut</object-name>
+                <object-name>ldring</object-name>
+                <object-name>lgear</object-name>
+                <object-name>lwheel</object-name>
+                <object-name>ltyre</object-name>
+                <property>gear/gear[1]/compression-norm</property>
+                <factor>-60</factor>
+                <center>
+                        <x-m> 0.28</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.43</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
+                </axis>
+        </animation>
+        <animation>
+                <type>rotate</type>
+                <object-name>ldstrut</object-name>
+                <object-name>ldring</object-name>
+                <object-name>lgear</object-name>
+                <object-name>lwheel</object-name>
+                <object-name>ltyre</object-name>
+                <property>gear/gear[1]/compression-norm</property>
+                <factor>40</factor>
+                <center>
+                        <x-m> 0.40</x-m>
+                        <y-m> 0.00</y-m>
+                        <z-m>-0.51</z-m>
+                </center>
+                <axis>
+                        <x>0.0</x>
+                        <y>1.0</y>
+                        <z>0.0</z>
                 </axis>
         </animation>
 
@@ -497,7 +690,7 @@ livery_update.stop();
 <offset-deg>-90</offset-deg>
 <min-deg>0</min-deg>
 <max-deg>90</max-deg>
-<axis>   
+<axis>
 <x1-m>-0.94</x1-m>
 <y1-m>-0.14</y1-m>
 <z1-m>-0.01</z1-m>
@@ -515,7 +708,7 @@ livery_update.stop();
 <offset-deg>90</offset-deg>
 <min-deg>-90</min-deg>
 <max-deg>0</max-deg>
-<axis>   
+<axis>
 <x1-m>-0.94</x1-m>
 <y1-m> 0.14</y1-m>
 <z1-m>-0.01</z1-m>

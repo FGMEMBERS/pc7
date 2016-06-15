@@ -7,7 +7,7 @@ name "LightCone"
 loc -13.0102 -6.45888 0
 data 4
 Cone
-texture "Strobe.png"
+texture "Halos.png"
 crease 30.000000
 numvert 34
 -8.86419 -12.4986 -5.69862

@@ -565,6 +565,22 @@ livery_update.stop();
   <inherits-from>Aircraft/pc7/Models/Effects/bumpspec-body</inherits-from>
   <object-name>fuselage</object-name>
   <object-name>wings</object-name>
+  <object-name>spinner</object-name>
+  <object-name>canopy_arch</object-name>
+  <object-name>canopy</object-name>
+  <object-name>rudder</object-name>
+  <object-name>right_flap</object-name>
+  <object-name>left_flap</object-name>
+  <object-name>right_aileron</object-name>
+  <object-name>left_aileron</object-name>
+  <object-name>hstab</object-name>
+  <object-name>elevator</object-name>
+  <object-name>left_door</object-name>
+  <object-name>right_door</object-name>
+  <object-name>back_right_door</object-name>
+  <object-name>back_left_door</object-name>
+  <object-name>front_strut</object-name>
+  <object-name>right_strut</object-name>
 </effect>
 
 <effect>

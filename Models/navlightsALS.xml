@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+<!-- Lights -->
+
+<model>
+<name>RedLightALS</name>
+<path>Aircraft/pc7/Models/Effects/lights/red-navlight.xml</path>
+<offsets>
+<x-m>-0.13</x-m>
+<y-m>-4.80</y-m>
+<z-m> 0.56</z-m>
+</offsets>
+</model>
+
+<model>
+<name>GreenLight</name>
+<path>Aircraft/pc7/Models/Effects/lights/green-navlight.xml</path>
+<offsets>
+<x-m>-0.13</x-m>
+<y-m> 4.80</y-m>
+<z-m> 0.56</z-m>
+</offsets>
+</model>
+
+<model>
+<name>StrobeLightR</name>
+<path>Aircraft/pc7/Models/Effects/lights/right-strobe.xml</path>
+<condition>
+<property>/sim/model/lights/strobe/state</property>
+</condition>
+<offsets>
+<x-m>-0.04</x-m>
+<y-m> 4.80</y-m>
+<z-m> 0.56</z-m>
+</offsets>
+</model>
+
+<model>
+<name>StrobeLightR</name>
+<path>Aircraft/pc7/Models/Effects/lights/left-strobe.xml</path>
+<condition>
+<property>/sim/model/lights/strobe/state</property>
+</condition>
+<offsets>
+<x-m>-0.04</x-m>
+<y-m>-4.80</y-m>
+<z-m> 0.56</z-m>
+</offsets>
+</model>
+
+<model>
+<name>BeaconLight1</name>
+<path>Aircraft/pc7/Models/Effects/lights/beacon-navlight.xml</path>
+<offsets>
+<x-m> 1.40</x-m>
+<y-m> 0.00</y-m>
+<z-m> 0.03</z-m>
+</offsets>
+</model>
+
+<model>
+<name>BeaconLight2</name>
+<path>Aircraft/pc7/Models/Effects/lights/beacon-navlight.xml</path>
+<offsets>
+<x-m> 2.30</x-m>
+<y-m> 0.00</y-m>
+<z-m> 1.25</z-m>
+</offsets>
+</model>
+
+
+</PropertyList>

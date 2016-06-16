@@ -13,7 +13,7 @@ kids 10
 OBJECT poly
 name "cockpit2"
 loc 0.374221 1.07475 -0.00188929
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/pc7/Models/dirtmap.png"
+texture "dirtmap.png"
 texrep 1 0.5
 texoff 0.121 -1
 crease 45.000000
@@ -1765,7 +1765,7 @@ kids 0
 OBJECT poly
 name "cockpit1"
 loc -0.987292 1.03773 -0.00188929
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/pc7/Models/dirtmap.png"
+texture "dirtmap.png"
 crease 45.000000
 numvert 182
 0.285535 -0.607135 -0.0931775
@@ -12823,7 +12823,7 @@ kids 0
 OBJECT poly
 name "box"
 loc 0 0 3.07353e-05
-texture "/home/fgfs/flightgear-fgaddon/Aircraft/pc7/Models/dirtmap.png"
+texture "dirtmap.png"
 crease 45.000000
 numvert 277
 0.61071 0.992589 0.291154

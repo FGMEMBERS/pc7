@@ -239,7 +239,15 @@
  <system file="Flaps.xml"/>
 
  <flight_control name="FCS: PC-7">
-
+   <channel name="Landing Gear">
+    <switch name="fcs/gear-no-wow">
+      <default value="1"/>
+      <test logic="AND" value="0">
+          gear/unit[1]/WOW eq 1
+          gear/unit[2]/WOW eq 1
+      </test>
+    </switch>
+  </channel>
  </flight_control>
 
  <aerodynamics>
@@ -730,6 +738,7 @@
            <property>metrics/Sw-sqft</property>
            <property>metrics/bw-ft</property>
            <property>aero/alpha-rad</property>
+           <property>fcs/gear-no-wow</property>
            <table>
              <independentVar lookup="row">aero/beta-rad</independentVar>
              <independentVar lookup="column">aero/Re</independentVar>

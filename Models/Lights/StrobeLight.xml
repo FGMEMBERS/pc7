@@ -24,9 +24,9 @@
 <object-name>StrobeLight</object-name>
 <property>/sim/time/sun-angle-rad</property>
 <offset>-1.4</offset>
-<x-factor>3</x-factor>
-<y-factor>3</y-factor>
-<z-factor>3</z-factor>
+<x-factor>2</x-factor>
+<y-factor>2</y-factor>
+<z-factor>2</z-factor>
 </animation>
 
 <animation>

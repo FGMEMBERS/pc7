@@ -13,16 +13,6 @@
 </animation>
 
 <animation>
-  <type>scale</type>
-  <object-name>Light</object-name>
-  <property>/sim/time/sun-angle-rad</property>
-  <offset>-1.4</offset>
-  <x-factor>1.5</x-factor>
-  <y-factor>1.5</y-factor>
-  <z-factor>1.5</z-factor>
- </animation>
-
-<animation>
 <type>noshadow</type>
 <object-name>Light</object-name>
 </animation>

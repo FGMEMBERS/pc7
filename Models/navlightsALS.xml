@@ -50,4 +50,25 @@
 </offsets>
 </model>
 
+<model>
+<name>BeaconLight1</name>
+<path>Aircraft/pc7/Models/Effects/lights/beacon-navlight.xml</path>
+<offsets>
+<x-m> 1.40</x-m>
+<y-m> 0.00</y-m>
+<z-m> 0.03</z-m>
+</offsets>
+</model>
+
+<model>
+<name>BeaconLight2</name>
+<path>Aircraft/pc7/Models/Effects/lights/beacon-navlight.xml</path>
+<offsets>
+<x-m> 2.30</x-m>
+<y-m> 0.00</y-m>
+<z-m> 1.25</z-m>
+</offsets>
+</model>
+
+
 </PropertyList>

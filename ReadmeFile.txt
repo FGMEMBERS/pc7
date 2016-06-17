@@ -1,4 +1,4 @@
-FligthGear's Pilatus PC-7 Mk.II (beta)
+FligthGear's Pilatus PC-7
 ----------------------------------------
 
 ![Splash](https://raw.githubusercontent.com/FGMEMBERS/pc7/master/splash.png)

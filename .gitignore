@@ -1,4 +1,5 @@
 #ignore generated backup files
+README
 .*.swp
 *.*~
 .*~

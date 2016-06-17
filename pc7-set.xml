@@ -5,8 +5,15 @@
 <!--Info -->
 
 <description>Pilatus PC-7</description>
-<author>Petar Jedvaj, Ernest Teuscher (based on David Culp's PC-7)</author>
-<status>beta</status>
+<author>Erik Hofman, Petar Jedvaj, Ernest Teuscher (based on David Culp's PC-7)</author>
+<status>production</status>
+
+<rating>
+  <FDM type="int">4</FDM>
+  <systems type="int">3</systems>
+  <cockpit type="int">3</cockpit>
+  <model type="int">5</model>
+</rating>
 
 <flight-model>jsb</flight-model>
 <aero>PC-7</aero>

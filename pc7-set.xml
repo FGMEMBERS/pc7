@@ -81,12 +81,12 @@
 <config>
 <from-model type="bool">true</from-model>
 <from-model-idx type="int">0</from-model-idx>
-<default-field-of-view-deg type="double">66.0</default-field-of-view-deg>
+<default-field-of-view-deg type="double">77.0</default-field-of-view-deg>
 <default-pitch-deg type="double">0</default-pitch-deg>
 <default-heading-deg type="double">0</default-heading-deg>
 <x-offset-m archive="y"> 0.00 </x-offset-m>	
-<y-offset-m archive="y"> 1.33 </y-offset-m>
-<z-offset-m archive="y"> 1.06 </z-offset-m>
+<y-offset-m archive="y"> 0.90 </y-offset-m>
+<z-offset-m archive="y"> 1.16 </z-offset-m>
 <pitch-offset-deg> -10.0</pitch-offset-deg>
 <dynamic-view type="bool">true</dynamic-view>
 </config>

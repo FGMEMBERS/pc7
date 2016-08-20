@@ -420,6 +420,7 @@
     <!-- CD0 is based on fuselage, wing, horizontal- en vertical tail -->
     <!-- Antennas, struts and wires are not taken into account        -->
     <!-- CD for gear (fixed and retractable) is defined below         -->
+    <function name="aero/force/Drag_zero_lift">
        <description>Drag at zero lift</description>
        <product>
           <property>aero/qbar-psf</property>

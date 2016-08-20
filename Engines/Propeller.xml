@@ -25,7 +25,7 @@
   <numblades> 3 </numblades>
   <gearratio> 18.75 </gearratio>
   <cp_factor> 1.00 </cp_factor>
-  <ct_factor> 1.10 </ct_factor>
+  <ct_factor> 3.00 </ct_factor>
   <minpitch> -12 </minpitch>
   <maxpitch> 45 </maxpitch>
   <minrpm> 1900 </minrpm>

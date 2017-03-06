@@ -50,6 +50,7 @@
   </pass>
  </technique>
 
+<!--
  <technique n="5">
     <pass>
       <lighting>true</lighting>
@@ -81,6 +82,7 @@
       <alpha-to-coverage>true</alpha-to-coverage>
     </pass>
   </technique>
+-->
 
  <technique n="7">
   <pass>
